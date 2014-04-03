@@ -1,0 +1,41 @@
+.loader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url('../images/cargar.gif') no-repeat 50%;
+}
+
+.linea{
+	border-left: solid #666666 1px;
+	box-shadow: -4px 0 5px -5px #333;
+}
+
+.box {
+	height: 150px;
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ccc;
+}
+
+.top {
+	box-shadow: 0 -5px 5px -5px #333;
+}
+
+.right {
+	box-shadow: -5px 0 5px -5px #333;
+}
+
+.bottom {
+	box-shadow: 0 5px 5px -5px #333;
+}
+
+.left {
+	box-shadow: 5px 0 5px -5px #333;
+}
+
+.all {
+	box-shadow: 0 0 5px #333;
+			}
+
