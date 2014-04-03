@@ -1,4 +1,9 @@
 <?php 
+/* Desarrollado por: PROGRAMANDO BROTHERS 	
+	Suscribete a : https://www.youtube.com/ProgramandoBrothers y comparte los vídeos.
+	Recuerda: "EL CONOCIMIENTO SE COMPARTE, POR MÁS POCO QUE SEA".
+	*/
+	
 $idEliminar = $_POST['idEliminar'];
 
 echo "<div class='modal-dialog'>

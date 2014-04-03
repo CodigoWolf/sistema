@@ -1,4 +1,8 @@
 <?php 
+/* Desarrollado por: PROGRAMANDO BROTHERS 	
+	Suscribete a : https://www.youtube.com/ProgramandoBrothers y comparte los vídeos.
+	Recuerda: "EL CONOCIMIENTO SE COMPARTE, POR MÁS POCO QUE SEA".
+	*/
 include_once('conexion.php');
 $ide = $_POST['ide'];
 $sql_edit= "SELECT idcliente, nombre, ape_paterno, ape_materno, edad, direccion, dni from cliente where idcliente =$ide;";

@@ -1,4 +1,8 @@
 <?php 
+	/* Desarrollado por: PROGRAMANDO BROTHERS 	
+	Suscribete a : https://www.youtube.com/ProgramandoBrothers y comparte los vídeos.
+	Recuerda: "EL CONOCIMIENTO SE COMPARTE, POR MÁS POCO QUE SEA".
+	*/
 	sleep(1);
 	include_once('conexion.php');
 	$sql = "SELECT * FROM cliente WHERE estado = 1;";
