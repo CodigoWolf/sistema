@@ -15,7 +15,7 @@ function registrarCliente(){
 			  		  edad: edad, dni: dni, direccion: direccion },
 			  success: function(msg){
 			  	if(msg == "correcto"){
-			  		$("#mensaje").html("<div class='alert alert-success'><i class='icon-ok-sign'></i> Cliente registrado con éxito</div>");
+			  		$("#mensaje").html("<div class='alert alert-success'><i class='icon-ok-sign'></i> Cliente registrado con ï¿½xito</div>");
 			  		listarClientes();
 			  	}
 			  }		  
@@ -92,7 +92,7 @@ function EC(){//Eliminar Cliente
 
 }
 
-function MD(){//Modificar ó Editar Cliente
+function MD(){//Modificar ï¿½ Editar Cliente
 	var id = $("#ideditar").val();
 	var nom_edit = $("#nom_edit").val();
 	var ape_pedit = $("#ape_pedit").val();
@@ -106,12 +106,12 @@ function MD(){//Modificar ó Editar Cliente
 		data: {ideditar:id, nom_edit:nom_edit, ape_pedit:ape_pedit, 
 		ape_medit:ape_medit, edad_edit:edad_edit, dir_edit:dir_edit, dni_edit:dni_edit},//parametros			
 		success: function(data){
-           if(data === 'Correcto'){
-				$("div").removeClass("modal-backdrop");
-				$("#miTabla").removeClass("linea");
-				listarClientes();
-            }
+	           console.log(data);
 		}
+	}).done(function(){
+		$("div").removeClass("modal-backdrop");
+		$("#miTabla").removeClass("linea");
+		listarClientes();
 	});	
 }
 
